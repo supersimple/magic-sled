@@ -1,0 +1,25 @@
+#google login
+#client-id: 222313445808-2sa5b45od8lju3vavbpapmdkgomvn6s0.apps.googleusercontent.com
+#client-secret: DbbkBhfQ7hu31Q_v9XOK9E6r
+google_oauth2:
+  project_id: "santa-1061"
+  app_id: "222313445808"
+  client_id: "222313445808-2sa5b45od8lju3vavbpapmdkgomvn6s0.apps.googleusercontent.com"
+  client_secret: "DbbkBhfQ7hu31Q_v9XOK9E6r"
+
+facebook:
+  project_id: "magic-sled"
+  app_id: "749943315149140"
+  client_id: "749943315149140"
+  client_secret: "5729146c784b451889a06500b35bb08f"
+
+# twitter:
+#   project_id: "gift-exchange-io"
+#   app_id: "7841702"
+#   client_id: "U40uzDKr9rLs5emIUk9nzEPE0"
+#   client_secret: "OS5VUtzE7Hb6qMXNsCbA1jphlWDzhnRDHYdmmPFgyuvkBmYFlS"
+#
+# ==> OmniAuth
+# Add a new OmniAuth provider. Check the wiki for more information on setting
+# up on your models and hooks.
+# config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'

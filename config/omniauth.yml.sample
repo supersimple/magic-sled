@@ -1,0 +1,6 @@
+#google login
+google:
+  project_id: "yourapp-1234"
+  app_id: "7891234567"
+  client_id: "5346546456-78atdio87389uiuori.apps.googleusercontent.com"
+  client_secret: "YOURsecretKEY"
