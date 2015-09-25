@@ -1,0 +1,43 @@
+2015-09-18T22:22:35.849502000 0.007140s notice: Recursively removing directory /Users/todd/RAILS/magic-sled/rethinkdb_data/tmp
+2015-09-18T22:22:35.851171000 0.008812s notice: Initializing directory /Users/todd/RAILS/magic-sled/rethinkdb_data
+2015-09-18T22:22:35.851292000 0.008929s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/todd/RAILS/magic-sled/rethinkdb_data' did not already exist or is empty.)
+2015-09-18T22:22:35.851585000 0.009222s notice: Running rethinkdb 2.1.2 (CLANG 6.1.0 (clang-602.0.53))...
+2015-09-18T22:22:35.854374000 0.012012s notice: Running on Darwin 14.5.0 x86_64
+2015-09-18T22:22:35.854422000 0.012059s notice: Loading data from directory /Users/todd/RAILS/magic-sled/rethinkdb_data
+2015-09-18T22:22:35.984988000 0.142626s info: Automatically using cache size of 4575 MB
+2015-09-18T22:22:35.985930000 0.143567s notice: Listening for intracluster connections on port 29015
+2015-09-18T22:22:35.989902000 0.147539s notice: Listening for client driver connections on port 28015
+2015-09-18T22:22:35.990040000 0.147678s notice: Listening for administrative HTTP connections on port 8080
+2015-09-18T22:22:35.990046000 0.147683s notice: Listening on addresses: 127.0.0.1, ::1
+2015-09-18T22:22:35.990047000 0.147684s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-09-18T22:22:35.990050000 0.147687s notice: Server ready, "TR_MBP_local_p67" 024277e8-cba8-4425-8566-df0157fa9bd4
+2015-09-18T22:22:36.160658000 0.318295s notice: A newer version of the RethinkDB server is available: 2.1.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-09-18T22:22:41.830156000 5.988066s info: Table 48a7e97a-ca86-4cfe-aa0d-7c4864df75fe: Added replica on this server.
+2015-09-18T22:22:43.375293000 7.533312s info: Table 48a7e97a-ca86-4cfe-aa0d-7c4864df75fe: Starting a new Raft election for term 1.
+2015-09-18T22:22:43.400284000 7.558304s info: Table 48a7e97a-ca86-4cfe-aa0d-7c4864df75fe: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-18T22:22:43.971469000 8.129488s info: Table 48a7e97a-ca86-4cfe-aa0d-7c4864df75fe: Configuration is changing.
+2015-09-18T22:22:44.193352000 8.351371s info: Table 334a2c00-1815-49f0-99ea-23beeb48557e: Added replica on this server.
+2015-09-18T22:22:45.867498000 10.025628s info: Table 334a2c00-1815-49f0-99ea-23beeb48557e: Starting a new Raft election for term 1.
+2015-09-18T22:22:45.891844000 10.049973s info: Table 334a2c00-1815-49f0-99ea-23beeb48557e: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-18T22:22:46.324440000 10.482569s info: Table 334a2c00-1815-49f0-99ea-23beeb48557e: Configuration is changing.
+2015-09-18T22:22:46.330829000 10.488958s info: Table 334a2c00-1815-49f0-99ea-23beeb48557e: Configuration is changing.
+2015-09-18T22:22:46.533754000 10.691938s info: Table bc952ce2-6f1e-4845-a406-12df071048ce: Added replica on this server.
+2015-09-18T22:22:48.460089000 12.618328s info: Table bc952ce2-6f1e-4845-a406-12df071048ce: Starting a new Raft election for term 1.
+2015-09-18T22:22:48.485941000 12.644179s info: Table bc952ce2-6f1e-4845-a406-12df071048ce: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-18T22:22:49.800789000 13.959136s info: Table bc952ce2-6f1e-4845-a406-12df071048ce: Configuration is changing.
+2015-09-18T22:22:49.802536000 13.960883s info: Table bc952ce2-6f1e-4845-a406-12df071048ce: Configuration is changing.
+2015-09-18T22:22:49.970855000 14.129202s info: Table de5a1a33-e768-403f-aedc-391d0dd89359: Added replica on this server.
+2015-09-18T22:22:51.132541000 15.290943s info: Table de5a1a33-e768-403f-aedc-391d0dd89359: Starting a new Raft election for term 1.
+2015-09-18T22:22:51.154681000 15.313083s info: Table de5a1a33-e768-403f-aedc-391d0dd89359: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-18T22:22:52.107544000 16.266000s info: Table de5a1a33-e768-403f-aedc-391d0dd89359: Configuration is changing.
+2015-09-18T22:22:52.109795000 16.268251s info: Table de5a1a33-e768-403f-aedc-391d0dd89359: Configuration is changing.
+2015-09-18T22:22:52.111660000 16.270116s info: Table 48a7e97a-ca86-4cfe-aa0d-7c4864df75fe: Configuration is changing.
+2015-09-18T22:22:52.318079000 16.476536s info: Table 334a2c00-1815-49f0-99ea-23beeb48557e: Configuration is changing.
+2015-09-19T22:48:12.030359000 9404.570397s info: Table 3a4629ca-3095-44e2-a5c5-a29e16455fd9: Added replica on this server.
+2015-09-19T22:48:13.747256000 9406.287398s info: Table 3a4629ca-3095-44e2-a5c5-a29e16455fd9: Starting a new Raft election for term 1.
+2015-09-19T22:48:13.769628000 9406.309769s info: Table 3a4629ca-3095-44e2-a5c5-a29e16455fd9: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-19T22:48:15.317073000 9407.857266s info: Table 3a4629ca-3095-44e2-a5c5-a29e16455fd9: Configuration is changing.
+2015-09-19T22:48:15.540225000 9408.080470s info: Table 20f30dce-c589-4056-b023-fc18215f4d17: Added replica on this server.
+2015-09-19T22:48:17.213051000 9409.753348s info: Table 20f30dce-c589-4056-b023-fc18215f4d17: Starting a new Raft election for term 1.
+2015-09-19T22:48:17.233168000 9409.773465s info: Table 20f30dce-c589-4056-b023-fc18215f4d17: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-19T22:48:17.692853000 9410.233202s info: Table 20f30dce-c589-4056-b023-fc18215f4d17: Configuration is changing.
