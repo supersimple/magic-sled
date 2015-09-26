@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  resources :members
-  
+  match 'enter' => 'sessions#new', as: 'enter', via: :all
   match 'auth/:provider/callback' => 'sessions#create', as: 'status', via: :all
   match 'auth/failure' => 'sessions#failure', as: 'failure', via: :all
   match 'signout' => 'sessions#destroy', as: 'signout', via: :all
