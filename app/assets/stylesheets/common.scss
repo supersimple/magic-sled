@@ -1,0 +1,11 @@
+@mixin basefont($size: 1em,$weight: 400) {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: $weight;
+	font-size: $size;
+	color: #f9f9f9;
+}
+
+body{
+	@include basefont;
+	background: #900;
+}

@@ -1,0 +1,36 @@
+2015-09-24T22:26:59.393400000 0.349540s notice: Recursively removing directory /Users/toddresudek/Rails/magic-sled/rethinkdb_data/tmp
+2015-09-24T22:26:59.395727000 0.351870s notice: Initializing directory /Users/toddresudek/Rails/magic-sled/rethinkdb_data
+2015-09-24T22:26:59.395990000 0.352129s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/toddresudek/Rails/magic-sled/rethinkdb_data' did not already exist or is empty.)
+2015-09-24T22:26:59.396642000 0.352781s notice: Running rethinkdb 2.1.4 (CLANG 7.0.0 (clang-700.0.72))...
+2015-09-24T22:26:59.401176000 0.357316s notice: Running on Darwin 14.5.0 x86_64
+2015-09-24T22:26:59.401252000 0.357390s notice: Loading data from directory /Users/toddresudek/Rails/magic-sled/rethinkdb_data
+2015-09-24T22:26:59.524280000 0.480419s info: Automatically using cache size of 1519 MB
+2015-09-24T22:26:59.525515000 0.481654s notice: Listening for intracluster connections on port 29015
+2015-09-24T22:26:59.529577000 0.485715s notice: Listening for client driver connections on port 28015
+2015-09-24T22:26:59.529699000 0.485837s notice: Listening for administrative HTTP connections on port 8080
+2015-09-24T22:26:59.529704000 0.485842s notice: Listening on addresses: 127.0.0.1, ::1
+2015-09-24T22:26:59.529705000 0.485843s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-09-24T22:26:59.529707000 0.485845s notice: Server ready, "Todds_MacBook_Pro_local_2r9" c2b86dc2-825b-4f83-a400-a91f0edb9348
+2015-09-24T22:29:09.150861000 130.107000s info: Table 67d7da3c-08af-4026-b711-adfea407a6b3: Added replica on this server.
+2015-09-24T22:29:10.846574000 131.802713s info: Table 67d7da3c-08af-4026-b711-adfea407a6b3: Starting a new Raft election for term 1.
+2015-09-24T22:29:10.875814000 131.831953s info: Table 67d7da3c-08af-4026-b711-adfea407a6b3: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-24T22:29:11.288496000 132.244634s info: Table 67d7da3c-08af-4026-b711-adfea407a6b3: Configuration is changing.
+2015-09-24T22:29:11.507105000 132.463244s info: Table c2dae255-68d2-4968-8566-749b99bf2750: Added replica on this server.
+2015-09-24T22:29:13.011896000 133.968035s info: Table c2dae255-68d2-4968-8566-749b99bf2750: Starting a new Raft election for term 1.
+2015-09-24T22:29:13.049359000 134.005498s info: Table c2dae255-68d2-4968-8566-749b99bf2750: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-24T22:29:13.651145000 134.607284s info: Table c2dae255-68d2-4968-8566-749b99bf2750: Configuration is changing.
+2015-09-24T22:29:13.658348000 134.614486s info: Table c2dae255-68d2-4968-8566-749b99bf2750: Configuration is changing.
+2015-09-24T22:29:13.865279000 134.821418s info: Table b0d3e821-10ff-4693-9583-d64b2a902b6d: Added replica on this server.
+2015-09-24T22:29:15.322329000 136.278476s info: Table b0d3e821-10ff-4693-9583-d64b2a902b6d: Starting a new Raft election for term 1.
+2015-09-24T22:29:15.343543000 136.299682s info: Table b0d3e821-10ff-4693-9583-d64b2a902b6d: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-24T22:29:16.007122000 136.963260s info: Table b0d3e821-10ff-4693-9583-d64b2a902b6d: Configuration is changing.
+2015-09-24T22:29:16.009586000 136.965724s info: Table b0d3e821-10ff-4693-9583-d64b2a902b6d: Configuration is changing.
+2015-09-24T22:29:16.011641000 136.967779s info: Table 67d7da3c-08af-4026-b711-adfea407a6b3: Configuration is changing.
+2015-09-24T22:29:16.169563000 137.125701s info: Table c2dae255-68d2-4968-8566-749b99bf2750: Configuration is changing.
+2015-09-24T22:29:16.234799000 137.190937s info: Table c2dae255-68d2-4968-8566-749b99bf2750: Configuration is changing.
+2015-09-24T22:29:16.320285000 137.276424s info: Table c2dae255-68d2-4968-8566-749b99bf2750: Configuration is changing.
+2015-09-25T10:06:38.123129000 17253.881013s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2015-09-25T10:06:38.123229000 17253.881112s notice: Shutting down client connections...
+2015-09-25T10:06:38.123323000 17253.881206s notice: All client connections closed.
+2015-09-25T10:06:38.123330000 17253.881213s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-09-25T10:06:38.132256000 17253.890140s notice: Storage engine shut down.
