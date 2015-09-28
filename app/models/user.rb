@@ -5,6 +5,8 @@ class User
   field :provider, :type => String, :index => true, :uniq => {:scope => [:uid, :name]}
   field :uid, :type => String, :index => true
   field :name, :type => String, :index => true
+  
+  has_many :lists
       
   def self.from_omniauth(auth)
     # u = where(auth.slice("provider", "uid")).first

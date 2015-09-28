@@ -1,11 +1,68 @@
-@mixin basefont($size: 1em,$weight: 400) {
+@mixin basefont($size: 1em,$weight: 400, $color: #454545) {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: $weight;
 	font-size: $size;
-	color: #f9f9f9;
+	color: $color;
 }
 
 body{
 	@include basefont;
-	background: #900;
+	background: #272436;
+	text-align:center;
+	padding:0;
+	margin:0;
+	
+	a.small_button{
+		padding:0 4px;
+		background-color:#ccc;
+		display:block;
+		float:right;
+		@include basefont(0.85em,400,#333);
+	}
+	
+	div#container{
+		
+		section#session_bar{
+			background-color:#572229;
+			line-height:36px;
+			border-bottom:1px solid #666;
+			@include basefont(0.85em,400,#ccc);
+		}
+		
+		div#user_nav{
+			background-color: rgba(255,255,255,0.85);
+			width: 400px;
+			margin: 100px auto 0;
+			border:1px solid #d7d7d7;
+			position:relative;
+			
+			#logo {width:400px;height:300px;float:left;clear:both;background-color:#f7f8f9;}
+			
+			a{
+				display:block;
+				text-decoration:none;
+				padding:10px 3px;
+				line-height:32px;
+				background-color:#333;
+				margin:0;
+				color:#eee;
+				float:left;
+				clear:both;
+				position:relative;
+				width:394px;
+				
+				&#facebook{
+					background: #3C5A99;					
+					img{width:40px;height:40px;position:absolute;left:6px;top:6px;}
+				}
+				
+				&#google{
+					background: #c53829;					
+					img{width:60px;height:40px;position:absolute;left:6px;top:6px;}
+				}
+			}
+		}
+		
+	}
+	
 }

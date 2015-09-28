@@ -1,0 +1,9 @@
+<div id="user_nav">
+<h1>Magic Sled</h1>
+<img id="logo" />
+<%= link_to image_tag("facebook.svg") + "Sign in with Facebook", "/auth/facebook", id: 'facebook' %>
+<%= link_to image_tag("google.svg") + "Sign in with Google", "/auth/google_oauth2", id: 'google' %>
+</div>
+<% flash.each do |name, msg| %>
+<%= content_tag :div, msg, id: "flash_#{name}" %>
+<% end %>

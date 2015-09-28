@@ -1,7 +1,9 @@
 class SessionsController < ApplicationController
   
   def new
-    
+    if current_user
+      redirect_to root_url
+    end
   end
   
   def create
@@ -12,6 +14,6 @@ class SessionsController < ApplicationController
   
   def destroy
     session[:user_id] = nil
-    redirect_to root_url, notice: "Signed out!"
+    redirect_to enter_url, notice: "Signed out!"
   end
 end
