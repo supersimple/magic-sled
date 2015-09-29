@@ -7,7 +7,7 @@
 
 body{
 	@include basefont;
-	background: #272436;
+	background: #3f5765;
 	text-align:center;
 	padding:0;
 	margin:0;
@@ -33,12 +33,11 @@ body{
 			background-color: rgba(255,255,255,0.85);
 			width: 400px;
 			margin: 100px auto 0;
-			position:relative;
 			
-			#logo-backdrop {width:400px;height:300px;float:left;clear:both;background-color:#f7f8f9;}
+			#logo-backdrop {width:400px;height:267px;float:left;clear:both;background-color:#f7f8f9;}
 			#logo{
 				float:left;clear:both;
-				background-color: rgba(0,0,0,0.33);
+				background-color: #2B3A42;
 				width:320px;
 				padding:20px 40px;
 				path{
