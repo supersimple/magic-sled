@@ -7,7 +7,7 @@
 
 body{
 	@include basefont;
-	background: #3f5765;
+	background: #bdd4de;
 	text-align:center;
 	padding:0;
 	margin:0;
@@ -30,11 +30,18 @@ body{
 		}
 		
 		div#user_nav{
-			background-color: rgba(255,255,255,0.85);
 			width: 400px;
 			margin: 100px auto 0;
 			
-			#logo-backdrop {width:400px;height:267px;float:left;clear:both;background-color:#f7f8f9;}
+			#logo-backdrop {width:400px;height:240px;float:left;clear:both;background: #3F5765;
+				background: -moz-linear-gradient(top, #2b3a42 0%, #3f5765 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b3a42), color-stop(100%,#3f5765)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #2b3a42 0%,#3f5765 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b3a42', endColorstr='#3f5765',GradientType=0 ); /* IE6-9 */
+			}
 			#logo{
 				float:left;clear:both;
 				background-color: #2B3A42;
