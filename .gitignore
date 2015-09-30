@@ -21,6 +21,10 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/.DS_Store
+
+# Ignore data files
+/rethinkdb_data*
 
 ## Specific to RubyMotion:
 .dat*

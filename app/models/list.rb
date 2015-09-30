@@ -5,6 +5,7 @@ class List
   field :title, :type => String, :index => true
   field :event_time, :type => Time
   field :user_id, :type => String, :index => true
+  field :description, :type => Text
   
   belongs_to :user
   has_many :members
