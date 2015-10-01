@@ -17,5 +17,8 @@ class User
     u.save
     u
   end
-    
+  
+  def has_image?
+    !image.empty?
+  end  
 end

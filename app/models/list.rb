@@ -24,7 +24,10 @@ class List
       
       return current_pair
     end
-    
   end
-    
+  
+  def is_expired?
+    event_time <= Time.now
+  end
+  
 end
