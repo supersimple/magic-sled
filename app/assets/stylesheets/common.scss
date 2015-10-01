@@ -20,6 +20,70 @@ body{
 		@include basefont(0.85em,400,#333);
 	}
 	
+	&#login-layout{
+		background-image: url(snowy-mountains-blurred.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: #BDD4DE;
+	}
+	
+	div#user_nav{
+		width: 400px;
+		margin: 100px auto 0;
+		
+		#shadow{
+			content: "";
+			float:left;
+			box-shadow: 0px 0px 29px 8px rgba(0,0,0,0.33);
+		}
+		
+		#logo-backdrop {width:400px;height:240px;float:left;clear:both;background: #3F5765;
+			background: -moz-linear-gradient(top, #2b3a42 0%, #3f5765 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b3a42), color-stop(100%,#3f5765)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* IE10+ */
+			background: linear-gradient(to bottom, #2b3a42 0%,#3f5765 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b3a42', endColorstr='#3f5765',GradientType=0 ); /* IE6-9 */
+		}
+		#logo{
+			float:left;clear:both;
+			background-color: #2B3A42;
+			width:320px;
+			padding:20px 40px;
+			path{
+				fill:white;
+			}
+		}
+		
+		a{
+			display:block;
+			text-decoration:none;
+			padding:10px 3px;
+			line-height:32px;
+			background-color:#333;
+			margin:0;
+			color:#eee;
+			float:left;
+			clear:both;
+			position:relative;
+			width:394px;
+			
+			&#facebook{
+				background: #3C5A99;					
+				img{width:40px;height:40px;position:absolute;left:6px;top:6px;}
+			}
+			
+			&#google{
+				background: #c53829;					
+				img{width:60px;height:40px;position:absolute;left:6px;top:6px;}
+			}
+		}
+	}
+	
+	
 	div#container{
 		
 		section#session_bar{
@@ -27,54 +91,6 @@ body{
 			line-height:36px;
 			border-bottom:1px solid #666;
 			@include basefont(0.85em,400,#ccc);
-		}
-		
-		div#user_nav{
-			width: 400px;
-			margin: 100px auto 0;
-			
-			#logo-backdrop {width:400px;height:240px;float:left;clear:both;background: #3F5765;
-				background: -moz-linear-gradient(top, #2b3a42 0%, #3f5765 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b3a42), color-stop(100%,#3f5765)); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(top, #2b3a42 0%,#3f5765 100%); /* IE10+ */
-				background: linear-gradient(to bottom, #2b3a42 0%,#3f5765 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b3a42', endColorstr='#3f5765',GradientType=0 ); /* IE6-9 */
-			}
-			#logo{
-				float:left;clear:both;
-				background-color: #2B3A42;
-				width:320px;
-				padding:20px 40px;
-				path{
-					fill:white;
-				}
-			}
-			
-			a{
-				display:block;
-				text-decoration:none;
-				padding:10px 3px;
-				line-height:32px;
-				background-color:#333;
-				margin:0;
-				color:#eee;
-				float:left;
-				clear:both;
-				position:relative;
-				width:394px;
-				
-				&#facebook{
-					background: #3C5A99;					
-					img{width:40px;height:40px;position:absolute;left:6px;top:6px;}
-				}
-				
-				&#google{
-					background: #c53829;					
-					img{width:60px;height:40px;position:absolute;left:6px;top:6px;}
-				}
-			}
 		}
 		
 	}

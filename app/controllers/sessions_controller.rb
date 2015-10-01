@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
     if current_user
       redirect_to root_url
     end
+    render layout: 'login'
   end
   
   def create
