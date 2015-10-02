@@ -27,9 +27,9 @@ class Member
   end
   
   def assignment
-    begin
+    if self.member_id
       @assignment = Member.where(id: self.member_id).first
-    rescue RethinkDB::RqlNonExistenceError
+    else
       return nil
     end
   end

@@ -20,5 +20,10 @@ class User
   
   def has_image?
     !image.empty?
-  end  
+  end
+  
+  def profile_image_path
+    has_image? ? image : 'generic-avatar.png'
+  end
+
 end
