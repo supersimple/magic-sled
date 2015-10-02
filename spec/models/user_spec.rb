@@ -21,4 +21,11 @@ RSpec.describe User, type: :model do
     end
   end
   
+  describe "#profile_image_path" do
+    it "returns a string" do
+      user = build(:user, :no_image)
+      expect(user.profile_image_path).to be_a(String)
+    end
+  end
+  
 end
