@@ -11,9 +11,29 @@
   background-clip: padding-box;
 }
 
+$dark-blue: #2b3a42;
+$dark-blue-shadow: darken($dark-blue, 10%);
+$dark-blue-highlight: lighten($dark-blue, 10%);
+
+$medium-blue: #3f5765;
+$medium-blue-shadow: darken($medium-blue, 10%);
+$medium-blue-highlight: lighten($medium-blue, 10%);
+
+$pale-blue: #bdd4de;
+$pale-blue-shadow: darken($pale-blue, 10%);
+$pale-blue-highlight: lighten($pale-blue, 10%);
+
+$light-gray: #fefefe;
+$light-gray-shadow: darken($light-gray, 10%);
+$light-gray-highlight: lighten($light-gray, 10%);
+
+$orange: #ff530d;
+$orange-shadow: darken($orange, 10%);
+$orange-highlight: lighten($orange, 10%);
+
 body{
 	@include basefont;
-	background: #efefef;
+	background: $light-gray;
 	text-align:center;
 	padding:0;
 	margin:0;
@@ -29,8 +49,8 @@ body{
 	
 	section#session_bar{
 		height:72px;
-		background-color:#405866;
-		border-bottom:1px solid #2b3a42;
+		background-color:$dark-blue-highlight;
+		border-bottom:1px solid $dark-blue;
 		text-align:center;
 		
 		#home-logo{
@@ -46,7 +66,7 @@ body{
 			float:right;
 			width:50px;
 			height:50px;
-			border:1px solid #2b3a42;
+			border:1px solid $dark-blue;
 			margin:10px 0;
 		}
 		
@@ -56,7 +76,7 @@ body{
       right:0;
       width:160px;
       list-style:none;
-      background-color:#bdd4de;
+      background-color:$pale-blue;
       padding:0;
       margin:0;
       @include border-radius(0 0 4px 4px);
@@ -79,8 +99,8 @@ body{
           border-top:1px solid rgba(255,255,255,0.2);
           
           &:hover{
-           background-color:#ff530d;
-           color:#fefefe; 
+           background-color:$orange;
+           color:$light-gray; 
            
           }
         }
