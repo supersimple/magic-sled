@@ -1,9 +1,9 @@
 <section id="session_bar">
   <div class="cont">
     <%= link_to image_tag('m-logo.png'), root_path, id: 'home-logo' %>
-    <nav><%= image_tag(current_user.profile_image_path, id: 'profile-image') %>
-      <ul>
-        <li><%= link_to "Profile Settings", root_path %></li>
+    <nav id="profile"><%= image_tag(current_user.profile_image_path, id: 'profile-image') %>
+      <ul id="profile-nav">
+        <li><%= link_to "Profile Settings", profile_settings_path %></li>
         <li><%= link_to "Sign out", signout_path %></li>
       </ul>
     </nav>

@@ -1,0 +1,13 @@
+<h1>User Profile</h1>
+<hr />
+<%= form_for current_user do |f| %>
+  <fieldset>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </fieldset>
+  <hr />
+  <button name="save" type="submit" class="lrg_button"><%= content_tag(:span,'Update Settings') %></button>
+<% end %>

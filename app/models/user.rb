@@ -6,8 +6,11 @@ class User
   field :uid, :type => String, :index => true
   field :name, :type => String, :index => true
   field :image, :type => String
+  field :email, :type => String
   
   has_many :lists
+  
+  validates_format_of :email, :with => /@/
       
   def self.from_omniauth(auth)
     u = where("provider" => auth["provider"], "uid" => auth["uid"]).first_or_create

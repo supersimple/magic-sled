@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   match 'auth/:provider/callback' => 'sessions#create', as: 'status', via: :all
   match 'auth/failure' => 'sessions#failure', as: 'failure', via: :all
   match 'signout' => 'sessions#destroy', as: 'signout', via: :all
+  
+  match 'profile-settings' => 'users#edit', as: 'profile_settings', via: :all
+  
+  resources :users
     
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
