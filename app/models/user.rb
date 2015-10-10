@@ -9,9 +9,7 @@ class User
   field :email, :type => String
   
   has_many :lists
-  
-  validates_format_of :email, :with => /@/
-      
+        
   def self.from_omniauth(auth)
     u = where("provider" => auth["provider"], "uid" => auth["uid"]).first_or_create
     #update some attributes that are likely to change for a user over time

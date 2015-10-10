@@ -5,8 +5,10 @@ Rails.application.routes.draw do
   match 'signout' => 'sessions#destroy', as: 'signout', via: :all
   
   match 'profile-settings' => 'users#edit', as: 'profile_settings', via: :all
+  match 'my-lists' => 'lists#index', as: 'user_lists', via: :all
   
   resources :users
+  resources :lists
     
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

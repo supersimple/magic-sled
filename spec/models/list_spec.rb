@@ -28,4 +28,11 @@ RSpec.describe List, type: :model do
     end
   end
   
+  describe "#summary" do
+    it "returns a string with the title and description" do
+      list = build(:list)
+      expect(list.summary).to eq(list.title + ' - ' + '<em>'+list.description+'</em>')
+    end
+  end
+  
 end

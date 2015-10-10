@@ -30,4 +30,8 @@ class List
     event_time <= Time.now
   end
   
+  def summary(trunc: false)
+    (title + ' - ' + '<em>'+(trunc ? description.truncate(trunc.to_i) : description)+'</em>').html_safe
+  end
+  
 end

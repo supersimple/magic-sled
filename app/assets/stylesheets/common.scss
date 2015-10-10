@@ -225,6 +225,34 @@ body{
       @include basefont($size:2em,$weight:100);
     }
     
+    h2{
+      float:left;
+      clear:both;
+      @include basefont($size:1.5em,$weight:100);
+    }
+    
+    ul{
+      list-style:none;
+      padding:0;
+      margin:0;
+      
+      &.lists{
+        float:left;
+        clear:both;
+        
+        li{
+          padding:4px 8px;
+          margin:0;
+          line-height:36px;
+          @include basefont($size:1.5em,$weight:100);
+          
+          em{
+            @include basefont($size:0.8em,$weight:100);
+          }
+        }
+      }
+    }
+    
     form{
       fieldset{
         float:left;
@@ -253,6 +281,18 @@ body{
         @include basefont($size:1.6em, $weight:100);
         @include border-radius(3px);
       }
+      
+      textarea{
+        float:right;
+        width: 448px;
+        margin:8px 0;
+        padding:0 6px;
+        line-height:36px;
+        height:4em;
+        border:1px solid $light-gray-shadow;
+        @include basefont($size:1.6em, $weight:100);
+        @include border-radius(3px);
+      }
     }
     
     button.lrg_button{
@@ -265,7 +305,7 @@ body{
       outline:0;
       @include basefont($size:1.2em,$weight:100,$color:$light-gray);
       @include border-radius(3px);
-      
+      cursor:pointer;
       span{
 //        background: url(arrow.png) no-repeat right center;
 //        padding: 0 1.6em 0 0;
